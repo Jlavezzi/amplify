@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width= device-width , initial-scale = 1.0">
+    <link rel="stylesheet" href="css/music.css">
+    <title>Amplify</title>
+  </head>
+  <body>
+    <section class="col-2">
+      <nav id="navbar" class="col-1">
+        <ul>
+          <li class="item home"> <a href="#home"></a>Home</li>
+          <li class="item top-song"> <a href=".top-songs-chart"></a>Top Songs</li>
+          <li class="item artists"><a href="#artists"></a>Artists</li>
+        </ul>
+         <h2 id="brand-name">AMPLIFY</h2>
+
+        </nav>
+    </section>
+    <section class="col-3">
+      <div class="introduction user">
+        <img src="" alt="" id="">
+        <h1 id="user-name">Amplify2332</h1>
+
+      </div>
+    </section>
+
+    <section class="col-4">
+      <div class="Home">
+        <img src="" alt="" id="">
+        <p>Amplify: Music is what feelings sound like </p>
+      </div>
+
+    </section>
+<section class="col-5">
+  <div class="player">
+    <!-- displaying details of song in player -->
+    <div class="player-song">
+      <div class="track-art"> <img src="images\music.png" alt="">  </div>
+      <div class="track-name">  Track Name    </div>
+      <div class="track-artist"> Track Artist      </div>
+
+    </div>
+    <!-- section for displaying track buttons -->
+    <div class="buttons">
+      <div class="prev-track" onclick="prev()" > <img src="images\backward-arrows-couple.png" alt=""></div>
+      <div class="play-pause-track"  onclick = "play_pauseButton()"><img src="images\pause.png" alt=""></div>
+      <div class="next-track" onclick="nextButton()" > <img src="images\fast-forward.png" alt="">  </div>
+    </div>
+    <div class="slider-container">
+      <div class="current-time">00:00</div>
+      <input type="range" name="" value="0" min="1" max="100" class="seek-slider" onchange="">
+      <div class="total-duration">00:00</div>
+
+    </div>
+
+  </div>
+</section>
+
+
+    <section  class="top-songs-chart">
+      <ol>
+        <li>
+          <div class="top-songs zero" onclick="zeroplaybutton()">
+            <img src="" alt="">
+            <h3>Life boats</h3>
+            <p>Jorja smith</p>
+          </div>
+        </li>
+
+        <li>
+          <div class="top-songs one" onclick="oneplaybutton()">
+            <img src="" alt="">
+            <h3>Overjoyed</h3>
+            <p>Victory</p>
+          </div>
+        </li>
+
+        <li>
+          <div class="top-Songs two" onclick="twoplaybutton()">
+            <img src="" alt="">
+            <h3>Don't Misunderstand</h3>
+            <p>Harold Mabern (feat. Norah Jones)</p>
+          </div>
+        </li>
+
+        <li>
+          <div class="top-songs three" onclick="threeplaybutton()">
+            <img src="" alt="">
+            <h3>Starlight</h3>
+            <p>Dave</p>
+          </div>
+        </li>
+
+        <li>
+          <div class="top-songs four">
+            <img src="" alt="" onclick="fourplaybutton()">
+            <h3>Stand Strong</h3>
+            <p>Davido</p>
+          </div>
+        </li>
+
+        <li>
+          <div class="top-songs five" onclick="fiveplaybutton()">
+            <img src="" alt="">
+            <h3>Doctor</h3>
+            <p>Sam Burchfield</p>
+          </div>
+        </li>
+
+      </ol>
+    </section>
+
+
+    <hr>
+    <section class="end col-12">
+      <div class="">
+        <img src="" alt="">
+        <h2>AMPLIFY</h2>
+      </div>
+      <div class="support">
+        <h3>if you have any issues, you can contact us on our email</h3>
+        <a href="https\\:adejaremarvel@gmail.com">supportdeskAMPLIFY@gmail.com</a>
+        </div>
+        <hr>
+    </section>
+    <footer>
+      Copyright (c) 2022 Copyright Holder All Rights Reserved. jlavezzi(AMPLIFY)
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" charset="utf-8"></script>
+    <script src="C:\Users\ADMIN\Desktop\atom\newproject\public\js\music.js" ></script>
+  </body>
+</html>

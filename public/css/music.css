@@ -1,0 +1,183 @@
+*{
+  /* display: grid; */
+
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+/* work starts here
+@media query {
+
+} */
+
+title{
+  height: 0;
+}
+
+body{
+  background-color: black;
+  color: white;
+
+}
+
+#navbar{
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  background-color: lightgreen;
+  display: flex;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  z-index: +1
+}
+
+#navbar ul{
+  display: flex;
+}
+
+#navbar ul li {
+  list-style: none;
+  color: black;
+  display: block;
+  padding: 3px 22px;
+  margin-left: 50px;
+  border-radius: 20px;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+#navbar h2{
+  position: absolute;
+           right: 20px;
+  font-style: oblique;
+  font-family: cursive;
+}
+
+#navbar ul li:hover{
+  color: black;
+  background-color: white;
+}
+#user-name{
+  color: lightgreen;
+  font-size: 2rem;
+  font-family: cursive;
+}
+
+.player{
+  height: 500px;
+  width: 400px;
+  border-radius: 12px;
+  box-shadow: 6px 6px 6px 0 white;
+  position: relative;
+          left: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: lightgreen;
+}
+.track-art{
+  margin: 25px;
+  height: 200px;
+  width: 200px;
+  background-image: url('');
+  background-size: cover;
+  background-position: center;
+  border-radius: 15%;
+}
+.track-name{
+  font-size: 2rem;
+  color: black
+}
+.track-artist{
+  font-size: 1rem;
+  color: black
+}
+.buttons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.prev-track,
+.play-pause-track,
+.next-track{
+  padding: 15px;
+  opacity: 0.8;
+}
+.prev-track:hover,
+.play-pause-track:hover,
+.next-track:hover{
+  opacity: 1.0;
+  transition: 2s;
+}
+.slider-container{
+  width: 75%;
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seek-slider{
+
+  height: 5px;
+  background: black;
+  opacity:0.7;
+  transition: opacity .2s
+}
+
+.top-songs-chart{
+  /* display: flex; */
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+ .top-songs-chart div{
+   margin-left: 80px;
+ }
+
+.top-songs{
+  background-color: black;
+  border-radius: 4%;
+
+  padding: 0 20px;
+  cursor: pointer;
+  margin-bottom: 50px;
+  width: 30rem;
+  color: lightgreen
+}
+
+.two{
+  background-color: black;
+  border-radius: 2%;
+  color: lightgreen;
+  padding: 0 20px;
+  cursor: pointer;
+  margin-bottom: 50px;
+  width: 30rem;
+}
+ol li{
+  color: lightgreen;
+}
+
+.play-pause-track img,
+.next-track img,
+.prev-track img{
+  height: 30px;
+  width: 30px;
+  margin: auto;
+
+}
+
+.track-art img{
+  position: relative;
+          bottom: 35px;
+          right: 18px;
+  height: 250px;
+  border-radius: 10%;
+  background-color: black;
+  color: lightgreen;
+  width:120%;
+
+}
